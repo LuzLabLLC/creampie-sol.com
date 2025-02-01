@@ -55,7 +55,7 @@ options={{
   }}
 />
 </div>
-<div style={{display: "flex", justifyContent: "center", marginTop: "150px"}}>
+<div style={{display: "flex", justifyContent: "center", marginTop: "75px"}}>
 <div className="chevron"></div>
   <div className="chevron"></div>
   <div className="chevron"></div>
