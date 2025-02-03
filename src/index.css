@@ -7,13 +7,7 @@
 
 /* Define variables */
 :root {
-  /* Colors */
-
-/* background */
-  /* --body-color: #000127; */
   --body-color: #000000;
-  
-  
   --text-color: #eee;
   --text-light:#eeeeeec4;
   --text-orange:#f07e2c;
@@ -63,8 +57,6 @@ html{
   font-size: 16px;
 }
 
-
-
 /* Global styles */
 body {
   font-family: var(--font-family);
@@ -74,55 +66,37 @@ body {
   
 }
 
-
-
-
 .app_inline_margin{
   margin-inline: auto;
-  /* border: 1px solid rgba(0, 255, 255, 0.418); */
   max-width: 80vw;
-  /* overflow-x: hidden; */
-
 }
 @media only screen and (max-width: 375px) {
   .app_inline_margin{
     max-width: 90vw;
-    /* background: #000; */
   }
   
 }
 
-
 .gradient_boll_orange {
   height: 1000px;
   width: 1000px;
-  /* background:white ; */
   background-image: radial-gradient(closest-side, #ed9362a4, #ed93622a , #00000000);
-  /* opacity: .4; */
   z-index: -20;
   opacity: .7;
   position: absolute;
   top:-100px;
   right:-500px;
-  
-
-
 }
 
 .gradient_boll_cyan {
   height: 1000px;
   width: 1000px;
-  /* background:white ; */
   background-image: radial-gradient(closest-side, #62ede6a4, #62e8ed2a , #00000000);
   opacity: .6;
   z-index: -20;
-
   position: absolute;
   top:-500px;
   left:-500px;
-  
-
-
 }
 
 .goldman_regular {

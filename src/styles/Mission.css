@@ -1,13 +1,9 @@
 .mission_section .whatisuranus{
     margin-top: 8rem;
     text-align: center;
-
-    /* background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.925)), url("../assets/Mission/flyingcoins.png"); */
     background-size: cover;
     min-height: 80vh;
     background-repeat: no-repeat;
-
-
 }
 .mission_section .whatisuranus h1{
     font-size: clamp(1.5rem,3vw + 1rem, 3.2rem);
@@ -35,31 +31,17 @@
 }
 .mission_section .whatisuranus .text_coin img{
     height: 20em;
-    /* filter: drop-shadow(6px 1px rgb(126, 110, 21)); */
     filter: drop-shadow(20px 20px 150px #0074f8);
     filter: drop-shadow(40px -20px 150px #4a5ae6f6);
 }
 
 .mission_section .whatisuranus p{
-    
     text-align: left;
 }
 
 @media (width <= 768px) {
     .mission_section .whatisuranus .text_coin p{
-        /* max-width: 60rem; */
         font-size: 1rem;
-        /* line-height: 1.4; */
     }
-
-}
-/* @media (width <= 540px) {
-
-} */
-
-@media (width <= 440px) {
-    
-
-
 
 }

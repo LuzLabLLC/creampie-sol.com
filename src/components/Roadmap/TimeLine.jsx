@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
-function TimeLine({no, heading, para}) {
+function TimeLine({ no, heading, para }) {
   return (
     <>
-    <div className="timeline">
-        <div className='numberOuter'>
-            <div className="numberinner">{no}</div>
+      <div className="timeline">
+        <div className="numberOuter">
+          <div className="numberinner">{no}</div>
         </div>
         <div className="textContent">
-            <h2>{heading}</h2>
-            <p>{para}</p>
+          <h2>{heading}</h2>
+          <p>{para}</p>
         </div>
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default TimeLine
+export default TimeLine;
