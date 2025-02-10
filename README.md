@@ -5,3 +5,6 @@
 - Use the command `npm run dev` to start the local server
 - To view the website locally go to `http://localhost:5173/` in your browser
 - Changes to code will trigger a hot reload to local server
+
+## Testing changes
+tete
