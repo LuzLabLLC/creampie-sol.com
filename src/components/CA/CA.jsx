@@ -55,7 +55,10 @@ function CA() {
               width: "200px",
               height: "auto",
             }}
+
+
           />
+
         </div>
       </div>  <h3 style={{ marginTop: "4rem", marginBottom: "20px" }}>
         Contract Address

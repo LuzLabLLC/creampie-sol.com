@@ -71,45 +71,7 @@ function Home() {
             }}
           />
         </div>
-         <div
-        
-                className="logo_box"
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "20px",
-                  padding: "10px",
-                  width: "100%",              
-                  boxSizing: "border-box"      
-                }}
-              >
-        
-        <img
-                  loading="lazy"
-                  src={Strawberry}
-                  alt="Logo 2"
-                  width="130"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-        
-                <img
-                  loading="lazy"
-                  src={Girl}
-                  alt="Logo 2"
-                  width="250"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-         <img
-                  loading="lazy"
-                  src={Strawberry}
-                  alt="Logo 2"
-                  width="130"
-                  style={{ maxWidth: "100%", height: "auto" }}
-                />
-        
-        
-              </div>
+     
         <div
           style={{
             display: "flex",
@@ -123,8 +85,49 @@ function Home() {
           <span className="text" style={{ marginLeft: 5 }}>
             Scroll down
           </span>
+          
         </div>
+        <div
+        
+        className="logo_box"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "20px",
+          padding: "10px",
+          width: "100%",              
+          boxSizing: "border-box"      
+        }}
+      >
+
+<img
+          loading="lazy"
+          src={Strawberry}
+          alt="Logo 2"
+          width="100"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+
+        <img
+          loading="lazy"
+          src={Girl}
+          alt="Logo 2"
+          width="200"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+ <img
+          loading="lazy"
+          src={Strawberry}
+          alt="Logo 2"
+          width="100"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+
+
+      </div>
               </div>
+
 
    </section>
   );
