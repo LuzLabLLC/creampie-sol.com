@@ -19,29 +19,58 @@ function About() {
       <div className="whatisuranus ">
         <h1 className="goldman_regular">Our Mission</h1>
         <div className="text_coin">
-        <div className="text_strawberry" style={{ display: "flex", alignItems: "center" }}>
-  
-        <img
-    src={Strawberry}
-    loading="lazy"
-    className="memecoin"
-    alt="Strawberry"
-    style={{ margin: "15px" , width: "150px", height: "auto"}}/>
-   
-   <img
-            src={Girl}
-            loading="lazy"
-            className="memecoin"
-            alt="CreampieFruit"
-            style={{ margin: "15px" }}
-          /> 
-  <img
-    src={Strawberry}
-    loading="lazy"
-    className="memecoin"
-    alt="Strawberry"
-    style={{ margin: "15px" , width: "150px", height: "auto"}}/>
-</div>
+          <div className="text_strawberry" style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            boxSizing: "border-box",
+            flexWrap: "nowrap"
+          }}>
+
+            <img
+              src={Strawberry}
+              loading="lazy"
+              className="memecoin"
+              alt="Strawberry"
+              style={{
+                width: "20%",
+                height: "auto",
+                flexShrink: 1,
+                maxHeight: "150px",
+                minWidth: "80px",
+                objectFit: "contain",
+              }} />
+
+            <img
+              src={Girl}
+              loading="lazy"
+              className="memecoin"
+              alt="CreampieFruit"
+              style={{
+                width: "40%",
+                height: "auto",
+                flexShrink: 1,
+                minWidth: "200px",
+                maxHeight: "350px",
+                objectFit: "contain",
+              }}
+            />
+            <img
+              src={Strawberry}
+              loading="lazy"
+              className="memecoin"
+              alt="Strawberry"
+              style={{
+                width: "20%",
+                height: "auto",
+                flexShrink: 1,
+                maxHeight: "150px",
+
+                minWidth: "80px",
+                objectFit: "contain",
+              }} />
+          </div>
           <p>
             $CREAMPIE was created by <strong>Shitoshi Fartamoto</strong>, the
             legendary dev of Fartcoin! When you think about $CREAMPIE, do you
@@ -52,31 +81,59 @@ function About() {
             to you. Embrace the creation of life and even that sweet treat we
             all love and join the $CREAMPIE cult today!
           </p>
-          <div className="text_strawberry1" style={{ display: "flex", alignItems: "center" }}>
-  
- 
-<img
-    src={CreampieStrawberry}
-    loading="lazy"
-    className="memecoin"
-    alt="CreampieStrawberry"
-    style={{ margin: "15px" ,  width: "150px", height: "auto"}}
-  />
-<img
-src={Girls}
-loading="lazy"
-className="memecoin"
-alt="Strawberry"
-style={{ margin: "15px" , width: "350px", height: "auto"}}/>
-<img
-    src={CreampieStrawberry}
-    loading="lazy"
-    className="memecoin"
-    alt="CreampieStrawberry"
-    style={{ margin: "15px", width: "150px", height: "auto" }}
-  />
-</div>
-         
+          <div className="girls" style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            boxSizing: "border-box",
+            flexWrap: "nowrap"
+          }}>
+            <img
+              src={CreampieStrawberry}
+              loading="lazy"
+              className="memecoin"
+              alt="CreampieStrawberry"
+              style={{
+                width: "20%",
+                height: "auto",
+                flexShrink: 1,
+                minWidth: "80px",
+                maxHeight: "150px",
+
+                objectFit: "contain",
+              }}
+            />
+            <img
+              src={Girls}
+              loading="lazy"
+              className="memecoin"
+              alt="Strawberry"
+              style={{
+                width: "40%",
+                height: "auto",
+                flexShrink: 1,
+                minWidth: "200px",
+                maxHeight: "350px",
+                objectFit: "contain",
+              }} />
+            <img
+              src={CreampieStrawberry}
+              loading="lazy"
+              className="memecoin"
+              alt="CreampieStrawberry"
+              style={{
+                width: "20%",
+                height: "auto",
+                flexShrink: 1,
+                maxHeight: "150px",
+
+                minWidth: "80px",
+                objectFit: "contain",
+              }}
+            />
+          </div>
+
         </div>
       </div>
     </div>

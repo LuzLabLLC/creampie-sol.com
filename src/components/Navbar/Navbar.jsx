@@ -18,23 +18,33 @@ function Navbar() {
           gap: "20px",
           padding: "10px",
           width: "100%",              
-          boxSizing: "border-box"      
+          boxSizing: "border-box"  
         }}
       >
         <img
           loading="lazy"
           src={Logo}
           alt="Logo 1"
-          width="400"
-          style={{ maxWidth: "100%", height: "auto" }}
+          
+          style={{
+            height: "auto",
+            flexShrink: 1,
+            minWidth: "80px",
+            objectFit: "contain",
+            maxHeight: "60px" }}
         />
 
         <img
           loading="lazy"
           src={Girl}
           alt="Logo 2"
-          width="200"
-          style={{ maxWidth: "100%", height: "auto" }}
+        
+          style={{ 
+            height: "auto",
+            flexShrink: 1,
+            minWidth: "80px",
+            objectFit: "contain",
+            maxHeight: "200px" }}
         />
 
 

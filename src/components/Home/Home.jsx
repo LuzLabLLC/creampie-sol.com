@@ -71,7 +71,7 @@ function Home() {
             }}
           />
         </div>
-     
+
         <div
           style={{
             display: "flex",
@@ -85,51 +85,68 @@ function Home() {
           <span className="text" style={{ marginLeft: 5 }}>
             Scroll down
           </span>
-          
+
         </div>
         <div
-        
-        className="logo_box"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "20px",
-          padding: "10px",
-          width: "100%",              
-          boxSizing: "border-box"      
-        }}
-      >
 
-<img
-          loading="lazy"
-          src={Strawberry}
-          alt="Logo 2"
-          width="100"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
+          className="logo_box"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "10px",
+            width: "100%",
+            boxSizing: "border-box",
+            flexWrap: "nowrap"
+          }}
+        >
 
-        <img
-          loading="lazy"
-          src={Girl}
-          alt="Logo 2"
-          width="200"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
- <img
-          loading="lazy"
-          src={Strawberry}
-          alt="Logo 2"
-          width="100"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
+          <img
+            loading="lazy"
+            src={Strawberry}
+            alt="Logo 2"
+
+            style={{
+              width: "40%",
+              height: "auto",
+              flexShrink: 1,
+              minWidth: "80px",
+              objectFit: "contain",
+            }}
+          />
+
+          <img
+            loading="lazy"
+            src={Girl}
+            alt="Logo 2"
+            style={{
+              width: "80%",
+              height: "auto",
+              flexShrink: 1,
+              minWidth: "150px",
+              maxHeight: "270px",
+              objectFit: "contain",
+            }}
+          />
+          <img
+            loading="lazy"
+            src={Strawberry}
+            alt="Logo 2"
+            style={{
+              width: "40%",
+              height: "auto",
+              flexShrink: 1,
+              minWidth: "80px",
+              objectFit: "contain",
+            }}
+          />
 
 
+        </div>
       </div>
-              </div>
 
 
-   </section>
+    </section>
   );
 }
 

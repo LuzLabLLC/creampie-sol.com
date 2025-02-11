@@ -16,9 +16,9 @@ function CA() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            gap: "20px",
-            flexWrap: "wrap",
-            margin: "20px 0",
+            width: "100%",
+            boxSizing: "border-box",
+            flexWrap: "nowrap"
           }}
         >
           <img
@@ -27,9 +27,12 @@ function CA() {
             className="memecoin"
             alt="CreampieFruit"
             style={{
-              margin: "10px",
-              width: "200px",
+              width: "40%",
               height: "auto",
+              flexShrink: 1,
+              minWidth: "200px",
+              maxHeight: "350px",
+              objectFit: "contain",
             }}
           />
           <img
@@ -38,9 +41,12 @@ function CA() {
             className="memecoin"
             alt="CreampieFruit"
             style={{
-              margin: "10px",
-              width: "200px",
+              width: "20%",
               height: "auto",
+              flexShrink: 1,
+              maxHeight: "150px",
+              minWidth: "80px",
+              objectFit: "contain",
             }}
           />
 
@@ -51,9 +57,12 @@ function CA() {
             className="memecoin"
             alt="CreampieFruit"
             style={{
-              margin: "10px",
-              width: "200px",
+              width: "40%",
               height: "auto",
+              flexShrink: 1,
+              minWidth: "200px",
+              maxHeight: "350px",
+              objectFit: "contain",
             }}
 
 
