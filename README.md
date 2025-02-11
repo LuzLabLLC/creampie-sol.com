@@ -7,4 +7,6 @@
 - Changes to code will trigger a hot reload to local server
 
 ## Testing changes
-Testing
+- To test changes, create a pull request against the `development` branch
+- A deploy preview link will be triggered in the PR
+- Once approved, your changes will go into `development` and will await the PR to main
