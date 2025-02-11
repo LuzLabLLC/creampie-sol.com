@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo_pink.png";
 import "../../styles/Navbar.css";
 
 function Navbar() {
@@ -15,6 +15,7 @@ function Navbar() {
           style={{ maxWidth: "100%", height: "auto" }}
         />
       </div>
+      
     </header>
   );
 }

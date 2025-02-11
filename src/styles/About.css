@@ -35,7 +35,7 @@
 .aboutus_section .gradient_blue{
     width: 100vw;
     height: 20rem;
-    background: rgba(101, 217, 221, 0.342);
+    background: rgba(201, 101, 221, 0.342);
     position: absolute;
     top: 0;
     z-index: -1;
@@ -43,7 +43,17 @@
     filter: blur(150px);
     
 }
-
+.aboutus_section .gradient_red{
+    width: 100vw;
+    height: 20rem;
+    background: rgba(255, 18, 140, 0.69);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 100%;
+    filter: blur(150px);
+    
+}
 
 .aboutus_section .whatisuranus{
     margin-top: 8rem;

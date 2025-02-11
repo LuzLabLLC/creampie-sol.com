@@ -1,7 +1,7 @@
 
 
 .footer_section {
-    background: #000000a1;
+    background: #0000003c;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .footer_section .logo_socials .social_icons li{
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.704);
     height: 3rem;
     width: 3rem;
     padding: .5rem;

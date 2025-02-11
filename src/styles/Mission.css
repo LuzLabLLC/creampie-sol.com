@@ -8,10 +8,8 @@
 .mission_section .whatisuranus h1{
     font-size: clamp(1.5rem,3vw + 1rem, 3.2rem);
     text-align: center;
-    background: linear-gradient(125deg, white ,white 25%, #f5783d);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
 }
 .mission_section .whatisuranus .text_coin{
     display: flex;

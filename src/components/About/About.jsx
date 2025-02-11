@@ -1,6 +1,12 @@
 import React from "react";
 import "../../styles/About.css";
 import CreampieFruit from "../../assets/creampie-fruit.png";
+import CreampieStrawberry from "../../assets/cream_pie_strawberry.png";
+import Strawberry from "../../assets/strawberry.webp";
+import Girl from "../../assets/girl.png";
+import Girls from "../../assets/girls.png";
+import GirlsBand from "../../assets/girls_band.png";
+
 
 function About() {
   return (
@@ -9,10 +15,33 @@ function About() {
       id="about"
       style={{ marginBottom: "150px" }}
     >
-      <div className="gradient_blue"></div>
+      <div className="gradient_red"></div>
       <div className="whatisuranus ">
         <h1 className="goldman_regular">Our Mission</h1>
         <div className="text_coin">
+        <div className="text_strawberry" style={{ display: "flex", alignItems: "center" }}>
+  
+        <img
+    src={Strawberry}
+    loading="lazy"
+    className="memecoin"
+    alt="Strawberry"
+    style={{ margin: "15px" , width: "150px", height: "auto"}}/>
+   
+   <img
+            src={Girl}
+            loading="lazy"
+            className="memecoin"
+            alt="CreampieFruit"
+            style={{ margin: "15px" }}
+          /> 
+  <img
+    src={Strawberry}
+    loading="lazy"
+    className="memecoin"
+    alt="Strawberry"
+    style={{ margin: "15px" , width: "150px", height: "auto"}}/>
+</div>
           <p>
             $CREAMPIE was created by <strong>Shitoshi Fartamoto</strong>, the
             legendary dev of Fartcoin! When you think about $CREAMPIE, do you
@@ -23,13 +52,31 @@ function About() {
             to you. Embrace the creation of life and even that sweet treat we
             all love and join the $CREAMPIE cult today!
           </p>
-          <img
-            src={CreampieFruit}
-            loading="lazy"
-            className="memecoin"
-            alt="CreampieFruit"
-            style={{ margin: "15px" }}
-          />
+          <div className="text_strawberry1" style={{ display: "flex", alignItems: "center" }}>
+  
+ 
+<img
+    src={CreampieStrawberry}
+    loading="lazy"
+    className="memecoin"
+    alt="CreampieStrawberry"
+    style={{ margin: "15px" ,  width: "150px", height: "auto"}}
+  />
+<img
+src={Girls}
+loading="lazy"
+className="memecoin"
+alt="Strawberry"
+style={{ margin: "15px" , width: "350px", height: "auto"}}/>
+<img
+    src={CreampieStrawberry}
+    loading="lazy"
+    className="memecoin"
+    alt="CreampieStrawberry"
+    style={{ margin: "15px", width: "150px", height: "auto" }}
+  />
+</div>
+         
         </div>
       </div>
     </div>

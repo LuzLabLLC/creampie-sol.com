@@ -1,6 +1,10 @@
 import React from "react";
 import "../../styles/Roadmap.css";
 import TimeLine from "./TimeLine";
+import Girl2 from "../../assets/girl2.png";
+import Girl3 from "../../assets/girl3.png";
+import Strawberry from "../../assets/strawberry.webp";
+
 
 function Rodmap() {
   return (
@@ -10,7 +14,9 @@ function Rodmap() {
       style={{ marginBottom: "150px" }}
     >
       <h1 className=" goldman_regular">Roadmap</h1>
+      
       <div>
+        
         <div
           className="timeline_container"
           style={{
@@ -20,15 +26,29 @@ function Rodmap() {
             flexWrap: "wrap",
             gap: "2rem",
             marginTop: "4rem",
+            position: "relative",
           }}
         >
+           
           <TimeLine
             no={1}
             para={
               "First, we’ll build a visually appealing website that showcases our brand and serves as the main source for updates. Next, we’ll set up a Telegram channel for real-time interactions and community building. Finally, we’ll launch on Twitter, sharing updates to reach a wider audience and boost engagement."
             }
-            heading={"PHASE 1"}
+            heading={"PHASES 1"}
           />
+           <img
+        src={Girl3}
+        loading="lazy"
+        className="memecoin"
+        alt="CreampieFruit"
+        style={{
+          margin: "15px",
+          width: "200px",          // Adjust image size as needed
+          height: "auto",
+          alignSelf: "center",      // Center the image vertically
+        }}
+      />
           <TimeLine
             no={2}
             para={
@@ -36,6 +56,18 @@ function Rodmap() {
             }
             heading={"PHASE 2"}
           />
+            <img
+        src={Girl2}
+        loading="lazy"
+        className="memecoin"
+        alt="CreampieFruit"
+        style={{
+          margin: "15px",
+          width: "200px",          // Adjust image size as needed
+          height: "auto",
+          alignSelf: "center",      // Center the image vertically
+        }}
+      />
           <TimeLine
             no={3}
             para={
@@ -43,10 +75,7 @@ function Rodmap() {
             }
             heading={"PHASE 3"}
           />
-          <div
-            style={{ zIndex: "-20", top: "400px" }}
-            className="gradient_boll_orange"
-          ></div>
+         
         </div>
       </div>
     </div>

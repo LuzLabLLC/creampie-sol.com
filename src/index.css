@@ -7,11 +7,11 @@
 
 /* Define variables */
 :root {
-  --body-color: #000000;
-  --text-color: #eee;
-  --text-light:#eeeeeec4;
+  --body-color: rgb(234, 157, 216);
+  --text-color: #2b0122;
+  --text-light:#dc02b0c4;
   --text-orange:#f07e2c;
-  --text-cyan:#87ece1;
+  --text-cyan:#850868;
   --text-light-orange:#fda261;
   
   /* font-family */
@@ -80,7 +80,7 @@ body {
 .gradient_boll_orange {
   height: 1000px;
   width: 1000px;
-  background-image: radial-gradient(closest-side, #ed9362a4, #ed93622a , #00000000);
+  background-image: radial-gradient(closest-side, #ed629aa4, #ed62ba2a , #00000000);
   z-index: -20;
   opacity: .7;
   position: absolute;
@@ -103,12 +103,15 @@ body {
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #ffffff;
 }
 
 .goldman_bold {
   font-family: "Goldman", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
+
 }
 .roboto-thin {
   font-family: "Roboto", sans-serif;

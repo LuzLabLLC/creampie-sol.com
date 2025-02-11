@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react"
 import "../../styles/Home.css";
-import CreampieText from "../../assets/creampie-text.png";
+import CreampieText from "../../assets/creampie-text-pink.png";
 import { useGlitch } from "react-powerglitch";
 import Typewriter from "typewriter-effect";
+import CreampieFruit from "../../assets/creampie-fruit.png";
+import CreampieStrawberry from "../../assets/cream_pie_strawberry.png";
+import Strawberry from "../../assets/strawberry.webp";
 
 function Home() {
   const glitch = useGlitch({
@@ -14,10 +17,12 @@ function Home() {
     },
   });
 
+  const [showImage, setShowImage] = useState(false);
   return (
     <section className="hero_section" id="home">
       <div className="heading">
-        <div style={{ opacity: "75%" }}>
+        <div style={{ opacity: "100%" }}>
+
           <Typewriter
             options={{
               autoStart: true,
@@ -30,7 +35,7 @@ function Home() {
                 .typeString("<copus-tutor")
                 .pauseFor(500)
                 .typeString(
-                  '<div>Atlas, Creampie Coin. (a)rtificial (i)nsemination. <span style="background: #95edf0; color: black;">After all, there is no fart or butthole without a creampie.</span></div>'
+                  '<div>Atlas, Creampie Coin. (a)rtificial (i)nsemination. <span style="background:rgb(51, 2, 50); color: white;">After all, there is no fart or butthole without a creampie.</span></div>'
                 )
                 .pauseFor(500)
                 .typeString("<div>...</div>")
@@ -80,8 +85,9 @@ function Home() {
             Scroll down
           </span>
         </div>
-      </div>
-    </section>
+              </div>
+
+   </section>
   );
 }
 

@@ -8,8 +8,7 @@
 .roadmap_section h1{
     font-size: clamp(1.5rem,3vw + 1rem, 3.2rem);
     text-align: center;
-    background: linear-gradient(125deg, white , white, #f5783d);
-    
+    background: linear-gradient(125deg, white , white, #bc19b9);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -34,12 +33,12 @@
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: .825rem;
-    border: 1px solid rgba(52, 125, 134, 0.986);
+    border: 1px solid rgba(187, 0, 78, 0.986);
     transition: .5s all ease-in-out;
 }
 
 .roadmap_section .timeline:hover {
-    background: linear-gradient(45deg, rgb(0 115 123), rgb(66, 197, 197) 90%);
+    background: linear-gradient(45deg, rgb(180, 76, 171), rgb(182, 143, 188) 90%);
     color: black;
     backface-visibility: hidden;
     cursor: pointer;
@@ -62,18 +61,18 @@
     top: 50%;
     left: 0;
     transform: translate(-50%, -50%);
-    border: 5px solid #057178;
+    border: 5px solid #970270;
     height: 3rem;
     width: 3rem;
     border-radius: 100%;
     display: inline-flex;
-    background: #95edf0;
+    background: #f095ea;
     color: black;
     font-weight: 900;
 }
 
 .roadmap_section .timeline .numberinner{
-    border: 5px solid #00A3BC;
+    border: 5px solid #f32d97;
     height: 2.4rem;
     width:  2.4rem;
     border-radius: 100%;

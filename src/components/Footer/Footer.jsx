@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Footer.css";
 import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo_pink.png";
 import DexScreener from "../../assets/dexscreener.png";
 import DexTools from "../../assets/dextools.png";
 import Raydium from "../../assets/raydium.png";
