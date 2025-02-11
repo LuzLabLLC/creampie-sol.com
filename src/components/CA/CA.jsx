@@ -1,30 +1,66 @@
 import React from "react";
 import "../../styles/Roadmap.css";
-import Girl5 from "../../assets/girl6.png";
+import Girl11 from "../../assets/girl11.png";
+import Girl from "../../assets/girl8.png";
+import Strawberry from "../../assets/strawberry.webp";
 
 
 function CA() {
   return (
     <div className="roadmap_section" style={{ marginBottom: "150px" }}>
       <h1 className=" goldman_regular">$CREAMPIE</h1>
-    
+
       <div style={{ display: "flex", justifyContent: "center" }}>
-    <img
-      src={Girl5}
-      loading="lazy"
-      className="memecoin"
-      alt="CreampieFruit"
-      style={{
-        margin: "15px",
-        width: "200px",       // Adjust image size as needed
-        height: "auto",
-        alignSelf: "center",  // This works if Flexbox is used
-      }}
-    />
-  </div>  <h3 style={{ marginTop: "4rem", marginBottom: "20px" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "20px",
+            flexWrap: "wrap",
+            margin: "20px 0",
+          }}
+        >
+          <img
+            src={Girl11}
+            loading="lazy"
+            className="memecoin"
+            alt="CreampieFruit"
+            style={{
+              margin: "10px",
+              width: "200px",
+              height: "auto",
+            }}
+          />
+          <img
+            src={Strawberry}
+            loading="lazy"
+            className="memecoin"
+            alt="CreampieFruit"
+            style={{
+              margin: "10px",
+              width: "200px",
+              height: "auto",
+            }}
+          />
+
+
+          <img
+            src={Girl}
+            loading="lazy"
+            className="memecoin"
+            alt="CreampieFruit"
+            style={{
+              margin: "10px",
+              width: "200px",
+              height: "auto",
+            }}
+          />
+        </div>
+      </div>  <h3 style={{ marginTop: "4rem", marginBottom: "20px" }}>
         Contract Address
       </h3>
-      
+
       <div
         style={{
           padding: "20px 15px",

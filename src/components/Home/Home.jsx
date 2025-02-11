@@ -3,9 +3,6 @@ import "../../styles/Home.css";
 import CreampieText from "../../assets/creampie-text-pink.png";
 import { useGlitch } from "react-powerglitch";
 import Typewriter from "typewriter-effect";
-import CreampieFruit from "../../assets/creampie-fruit.png";
-import CreampieStrawberry from "../../assets/cream_pie_strawberry.png";
-import Strawberry from "../../assets/strawberry.webp";
 
 function Home() {
   const glitch = useGlitch({

@@ -3,18 +3,25 @@ import "../../styles/Roadmap.css";
 import TimeLine from "./TimeLine";
 import Girl2 from "../../assets/girl2.png";
 import Girl3 from "../../assets/girl3.png";
-import Strawberry from "../../assets/strawberry.webp";
+import Girl4 from "../../assets/girl14.png";
 
 
 function Rodmap() {
   return (
+    
     <div
-      className="roadmap_section"
+      className="roadmap_section"     
       id="roadmap"
-      style={{ marginBottom: "150px" }}
+      style={{
+        marginBottom: "150px",
+        position: "relative",    // ✅ Контекст для позиционирования градиента
+        overflow: "hidden",      // ✅ Ограничение видимости градиента
+      }}
     >
+                <div className="gradient_red"></div>
+
+
       <h1 className=" goldman_regular">Roadmap</h1>
-      
       <div>
         
         <div
@@ -27,6 +34,7 @@ function Rodmap() {
             gap: "2rem",
             marginTop: "4rem",
             position: "relative",
+            zIndex: 1,    
           }}
         >
            
@@ -44,9 +52,9 @@ function Rodmap() {
         alt="CreampieFruit"
         style={{
           margin: "15px",
-          width: "200px",          // Adjust image size as needed
+          width: "200px",          
           height: "auto",
-          alignSelf: "center",      // Center the image vertically
+          alignSelf: "center",    
         }}
       />
           <TimeLine
@@ -75,6 +83,18 @@ function Rodmap() {
             }
             heading={"PHASE 3"}
           />
+          <img
+        src={Girl4}
+        loading="lazy"
+        className="memecoin"
+        alt="CreampieFruit"
+        style={{
+          margin: "15px",
+          width: "200px",          
+          height: "auto",
+          alignSelf: "center",      
+        }}
+      />
          
         </div>
       </div>
